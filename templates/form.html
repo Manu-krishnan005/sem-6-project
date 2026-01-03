@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personalized Nutrition Plan</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f8fb;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .diet-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .diet-card {
+      border: 2px solid #ddd;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.2s;
+      font-weight: 600;
+    }
+
+    .diet-card input {
+      display: none;
+    }
+    
+  .diet-card input:checked + div {
+    border: 2px solid #ff7a45;
+    background: #fff2eb;
+    color: #111827;   /* dark text for light background */
+}
+
+
+    body.dark .diet-card input:checked + div {
+      color: #111827;          
+      background: #fff2eb;     
+  }
+    .diet-card div {
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    /* Dark mode diet buttons text */
+body.dark .diet-card div {
+  color: #e5e7eb;
+}
+
+/* Hover effect clarity */
+body.dark .diet-card:hover div {
+  background: #334155;
+}
+
+
+    .row {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    input, select {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 140px;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 30px;
+      background: #ff7a45;
+      color: white;
+      border: none;
+      padding: 14px 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff6330;
+    }
+
+    /* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: white;
+  font-size: 22px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+/* DARK MODE */
+body.dark {
+  background: #0f172a;
+}
+
+body.dark .container,
+body.dark .day-card {
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+body.dark input,
+body.dark select {
+  background: #0f172a;
+  color: #e5e7eb;
+  border: 1px solid #475569;
+}
+
+body.dark .theme-toggle {
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">🌙</button>
+  <div class="container">
+    <h1>Personalized Nutrition Plan Generator</h1>
+
+    <form method="POST" action="/generate">
+
+      <div class="diet-grid">
+        {% for diet in ["anything","keto","mediterranean","paleo","vegan","vegetarian"] %}
+        <label class="diet-card">
+          <input type="radio" name="diet_type" value="{{ diet }}" {% if diet=="vegetarian" %}checked{% endif %}>
+          <div>{{ diet.capitalize() }}</div>
+        </label>
+        {% endfor %}
+      </div>
+
+      <div class="row">
+        I want to eat
+        <input type="number" name="target_calories" required>
+        calories
+      </div>
+
+      <div class="row">
+        in
+        <select name="meals">
+  <option value="2">2 meals</option>
+  <option value="3" selected>3 meals</option>
+  <option value="4">4 meals</option>
+  <option value="5">5 meals</option>
+</select>
+
+      </div>
+
+      <div class="row">
+        Allergies:
+        <input type="text" name="allergies" placeholder="peanuts">
+      </div>
+
+      <div class="row">
+        Daily Budget ($):
+        <input type="number" name="budget" required>
+      </div>
+
+      <div class="row">
+  Goal:
+  <select name="goal" required>
+    <option value="weight_loss">Weight Loss</option>
+    <option value="maintenance">Maintenance</option>
+    <option value="weight_gain">Weight Gain</option>
+  </select>
+</div>
+
+
+      <div class="row">
+        <button type="submit">Generate Plan</button>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+<script>
+  const themeBtn = document.getElementById("themeBtn");
+
+  function setTheme(theme) {
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+      themeBtn.innerText = "☀️"; // sun = switch to light
+    } else {
+      document.body.classList.remove("dark");
+      themeBtn.innerText = "🌙"; // moon = switch to dark
+    }
+    localStorage.setItem("theme", theme);
+  }
+
+  function toggleTheme() {
+    const isDark = document.body.classList.contains("dark");
+    setTheme(isDark ? "light" : "dark");
+  }
+
+  // FIX: apply correct theme & icon on page load
+  window.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    setTheme(savedTheme);
+  });
+</script>
+
+
+</html>

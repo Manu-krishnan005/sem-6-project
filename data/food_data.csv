@@ -1,0 +1,98 @@
+food,calories,protein,carbs,fats,cost,tags
+"Hummus, commercial",229,7.35,14.9,17.1,1.0,veg
+"Tomatoes, grape, raw",113,0.83,5.51,0.63,1.0,veg
+"Beans, snap, green, canned, regular pack, drained solids",86.0,1.04,4.11,0.39,1.0,veg
+"Frankfurter, beef, unheated",1310.0,11.7,2.89,28.0,1.0,veg
+"Nuts, almonds, dry roasted, with salt added",2590.0,20.4,16.2,57.8,1.0,veg
+"Kale, raw",35.0,2.92,4.42,1.49,1.0,veg
+"Egg, whole, raw, frozen, pasteurized",150,12.3,0.91,10.3,1.0,veg
+"Egg, white, raw, frozen, pasteurized",201,10.1,0.74,0.16,1.0,veg
+"Egg, white, dried",376,79.9,6.02,0.65,1.0,veg
+"Onion rings, breaded, par fried, frozen, prepared, heated in oven",1210.0,4.52,36.3,14.4,1.0,veg
+"Pickles, cucumber, dill or kosher dill",12.0,0.48,1.99,0.43,1.0,veg
+"Cheese, parmesan, grated",1760.0,29.6,12.4,28.0,1.0,veg
+"Cheese, pasteurized process, American, vitamin D fortified",366,18.0,5.27,30.6,1.0,veg
+"Grapefruit juice, white, canned or bottled, unsweetened",37.0,0.55,7.59,0.7,1.0,veg
+"Peaches, yellow, raw",174,0.91,10.1,0.27,1.0,veg
+"Seeds, sunflower seed kernels, dry roasted, with salt added",2560.0,21.0,17.1,56.1,1.0,veg
+"Bread, white, commercially prepared",1130.0,9.43,49.2,3.59,1.0,veg
+"Kale, frozen, cooked, boiled, drained, without salt",151,2.94,5.3,1.21,1.0,veg
+"Mustard, prepared, yellow",61.0,4.25,5.3,3.38,1.0,veg
+"Kiwifruit, green, raw",241,1.06,14.0,0.44,1.0,veg
+"Nectarines, raw",39.0,1.06,9.18,0.28,1.0,veg
+"Cheese, cheddar",1710.0,23.3,2.44,34.0,1.0,veg
+"Cheese, cottage, lowfat, 2% milkfat",352,11.0,4.31,2.3,1.0,veg
+"Cheese, mozzarella, low moisture, part-skim",298,23.7,4.44,20.4,1.0,veg
+"Egg, whole, dried",575,48.1,1.87,39.8,1.0,veg
+"Egg, yolk, raw, frozen, pasteurized",1240.0,15.6,0.59,25.1,1.0,veg
+"Egg, yolk, dried",2740.0,34.2,1.07,55.5,1.0,veg
+"Yogurt, Greek, plain, nonfat",61.0,10.3,3.64,0.37,1.0,veg
+"Yogurt, Greek, strawberry, nonfat",347,8.06,12.2,0.15,1.0,veg
+"Oil, coconut",833,0.0,0.84,99.1,1.0,veg
+"Chicken, broilers or fryers, drumstick, meat only, cooked, braised",156,23.9,0.0,5.95,1.0,veg
+"Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",695,32.1,0.0,3.24,1.0,veg
+"Sauce, pasta, spaghetti/marinara, ready-to-serve",186,1.41,8.05,1.48,1.0,veg
+"Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",106,16.7,0.27,3.73,1.0,veg
+"Olives, green, Manzanilla, stuffed with pimiento",543,1.15,4.96,12.9,1.0,veg
+"Cookies, oatmeal, soft, with raisins",1800.0,5.79,69.6,14.3,1.0,veg
+"Tomatoes, canned, red, ripe, diced",76.0,0.84,3.32,0.5,1.0,veg
+"Fish, haddock, raw",308,16.3,0.0,0.45,1.0,veg
+"Fish, pollock, raw",235,12.3,0.0,0.41,1.0,veg
+"Fish, tuna, light, canned in water, drained solids",376,19.0,0.08,0.94,1.0,veg
+"Restaurant, Chinese, fried rice, without meat",729,3.84,32.5,3.19,1.0,veg
+"Restaurant, Latino, tamale, pork",174,7.38,15.8,9.04,1.0,veg
+"Restaurant, Latino, pupusas con frijoles (pupusas, bean)",229,5.59,31.5,9.01,1.0,veg
+"Bread, whole-wheat, commercially prepared",1060.0,12.3,43.1,3.55,1.0,veg
+"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted",735,27.7,0.0,6.36,1.0,veg
+"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw",648,22.8,0.0,6.39,1.0,veg
+"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",122,23.4,0.0,2.48,1.0,veg
+"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",514,23.7,0.0,2.41,1.0,veg
+"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw",606,22.7,0.0,5.32,1.0,veg
+"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled",219,27.3,0.0,11.4,1.0,veg
+"Carrots, frozen, unprepared",153,0.81,7.92,0.47,1.0,veg
+"Cheese, dry white, queso seco",326,24.5,2.07,24.3,1.0,veg
+"Cheese, ricotta, whole milk",157,7.81,6.86,11.0,1.0,veg
+"Cheese, swiss",1640.0,27.0,1.44,31.0,1.0,veg
+"Figs, dried, uncooked",249,3.3,63.9,0.92,1.0,veg
+"Lettuce, cos or romaine, raw",70.0,1.24,3.24,0.26,1.0,veg
+"Melons, cantaloupe, raw",141,0.82,8.16,0.18,1.0,veg
+"Oranges, raw, navels",196,0.91,11.8,0.15,1.0,veg
+"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",43.0,3.38,5.18,0.95,1.0,veg
+"Pears, raw, bartlett",57.0,0.38,15.1,0.16,1.0,veg
+"Restaurant, Chinese, sweet and sour pork",260,8.88,25.5,13.6,1.0,veg
+"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",144,3.43,4.92,0.08,1.0,veg
+"Sauce, salsa, ready-to-serve",29.0,1.44,6.74,0.19,1.0,veg
+"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",50.0,3.36,4.9,1.9,1.0,veg
+"Sausage, breakfast sausage, beef, pre-cooked, unprepared",1370.0,13.3,3.37,28.7,1.0,veg
+"Sausage, Italian, pork, mild, cooked, pan-fried",1350.0,18.2,2.15,26.2,1.0,veg
+"Sausage, pork, chorizo, link or ground, cooked, pan-fried",1450.0,19.3,2.63,28.1,1.0,veg
+"Milk, whole, 3.25% milkfat, with added vitamin D",251,3.27,4.63,3.2,1.0,veg
+"Sausage, turkey, breakfast links, mild, raw",169,16.7,0.93,10.4,1.0,veg
+"Sugars, granulated",385,0.0,99.6,0.32,1.0,veg
+"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",922,27.1,0.0,11.6,1.0,veg
+"Ham, sliced, restaurant",507,19.6,2.36,3.68,1.0,veg
+"Cheese, American, restaurant",1570.0,17.5,6.35,31.1,1.0,veg
+"Broccoli, raw",31.0,2.57,6.27,0.34,1.0,veg
+"Ketchup, restaurant",488,1.11,26.8,0.55,1.0,veg
+"Eggs, Grade A, Large, egg white",55.0,10.7,2.36,0.0,1.0,veg
+"Eggs, Grade A, Large, egg yolk",1400.0,16.2,1.02,28.8,1.0,veg
+"Eggs, Grade A, Large, egg whole",617,12.4,0.96,9.96,1.0,veg
+"Pork, cured, bacon, cooked, restaurant",2090.0,40.9,2.1,36.5,1.0,veg
+"Flour, wheat, all-purpose, enriched, bleached",366,10.9,77.3,1.48,1.0,veg
+"Flour, wheat, all-purpose, enriched, unbleached",358,13.1,73.2,1.48,1.0,veg
+"Flour, wheat, all-purpose, unenriched, unbleached",1510.0,12.0,74.6,1.7,1.0,veg
+"Flour, whole wheat, unenriched",1550.0,15.1,71.2,2.73,1.0,veg
+"Flour, bread, white, enriched, unbleached",1520.0,14.3,72.8,1.65,1.0,veg
+"Flour, rice, white, unenriched",359,6.94,79.8,1.3,1.0,veg
+"Flour, corn, yellow, fine meal, enriched",1520.0,6.2,80.8,1.74,1.0,veg
+"Onions, red, raw",186,0.94,9.93,0.1,1.0,veg
+"Onions, yellow, raw",160,0.83,8.61,0.05,1.0,veg
+"Garlic, raw",597,6.62,28.2,0.38,1.0,veg
+"Flour, soy, defatted",1530.0,51.1,32.9,3.33,1.0,veg
+"Flour, soy, full-fat",1890.0,38.6,27.9,20.7,1.0,veg
+"Flour, rice, brown",365,7.19,75.5,3.85,1.0,veg
+"Flour, rice, glutinous",1500.0,6.69,80.1,1.16,1.0,veg
+"Flour, pastry, unenriched, unbleached",1500.0,8.75,77.2,1.64,1.0,veg
+"Onions, white, raw",148,0.89,7.68,0.13,1.0,veg
+"Bananas, overripe, raw",357,0.73,20.1,0.22,1.0,veg
+"Bananas, ripe and slightly ripe, raw",97.0,0.74,23.0,0.29,1.0,veg
